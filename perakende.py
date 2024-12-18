@@ -12,7 +12,7 @@ print(df.head())
 print("\nVeri Bilgisi:")
 print(df.info())
 
-# Boş değerleri kontrolü
+# Boş değerlerin kontrolü
 print("\nBoş Değerler:")
 print(df.isnull().sum())
 
